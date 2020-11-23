@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Page</title>
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="content">
+      <main id="recipe">
+        <div style="text-align: center;">
+          <h1 id="name"></h1>
+          <small>By <span id="author"></span></small>, 
+          <time datatime="" id="time"></time>
+          <br>
+          <img src="" id="recipeImg" alt="Banana bread on a plate" />
+        </div>
+        <p id="description"></p>
+        <ul>
+          <li>
+            Prep Time: <span content="" id="prepTime"></span>
+          </li>
+          <li>
+            Cook time: <span content="" id="cookTime"></span>
+          </li>
+          <li>
+            Yield: <span id="recipeYield"></span>
+          </li>
+          <li>
+            Tags: <a href="" id="suitableForDiet"></a>
+          </li>
+        </ul>
+        <div id="nutrition">
+          <h2>Nutrition facts</h2>
+          <p><span id="calories"></span>, 
+          <span id="fatContent"></span></p>
+        </div>
+        <h2>Ingredients</h2>
+          <ul>
+            <li>
+              <span class="recipeIngredient"></span>
+            </li>
+            <li>
+              <span class="recipeIngredient"></span>
+            </li>
+            <li>
+              <span class="recipeIngredient"></span>
+            </li>
+          </ul>
+        <h2>Instructions</h2>
+        <p id="recipeInstructions"></p>
+        <h2>More</h2>
+        <div id="interactionStatistic">
+          <p>
+            <a href="" id="interactionType">
+              <span id="userInteractionCount"></span> comments.
+            </a>
+          </p>
+        </div>
+      </main>
+    </div>
+  </div>
+  <script src="./scripts/index.js"></script>
+</body>
+</html>
